@@ -1,0 +1,274 @@
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 100%;
+    padding:0px;
+    margin:0px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.case1 .topbar li{
+       padding-left: 25px;
+       margin:0px;
+       font-size:18px;
+}
+
+#logo{
+    font-weight: bold;
+}
+
+.case1 .topbar{
+    font-size:24px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0px;
+    margin-bottom:80px;
+}
+
+.case1{
+    background-color: #1f2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.case1 .topbody{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.bigtext{
+    font-size:48px;
+    font-weight: bold;
+}
+
+.liltext{
+    font-size:18px;
+}
+
+.body1-left{
+    width: 435px;
+    font-size: 18px;
+}
+
+.body1-right{
+    width:435px;
+    font-size:18px;
+}
+
+.body1-right{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body1-left button{
+    background-color: #0ba6ff;
+    padding-inline:25px;
+    padding-block: 7px;
+    border: 1px solid #0ba6ff;
+    border-radius: 5px;
+    color:white;
+    margin-block:10px;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.case1, .case2, .case3{
+    height: 500px;
+}
+
+.case2{
+    background-color: white;
+    overflow:hidden;
+}
+
+.toptext2{
+    font-size:36px;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box{
+    border:5px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+
+.text{
+    width:150px;
+    text-align: center;
+}
+.hold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+    margin:0px;
+}
+
+.case3{
+    background-color: rgb(204, 203, 203);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    display:flex;
+    flex-direction: column;
+    width:750px;
+}
+.qoute{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    padding:0;
+}
+
+.author{
+    text-align: right;
+    font-size:24px;
+    font-weight: bold;
+    padding-right:25px;
+}
+
+footer{
+    background-color: #1c2d45;
+    color:white;
+    padding:22px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.case4{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bluebox{
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width:1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.txt{
+    font-size:24px;
+    font-weight:700;
+    color:white;
+}
+
+.txt2{
+    color:white;
+}
+
+.case4 button{
+    background-color:inherit;
+    width: 120px;
+    height:35px;
+    border:3px solid white;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    cursor:pointer;
+    color:white;
+}
+
+.case4 button:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.case1 button:hover{
+    box-shadow: 0px 5px 8px rgba(255, 255, 255);
+}
+@media (max-width:900px){
+        .box{
+            width:90px;
+            height:90px;
+        }
+        .text{
+            font-size:15px;
+        }
+}
+
+@media (max-width:750px){
+    .box{
+        width:70px;
+        height:70px
+    }
+    .hold{
+        flex-wrap: wrap;
+    }
+
+    .container2{
+        width:500px
+    }
+
+    .qoute{
+        font-size:25px;
+    }
+
+    .author{
+        font-size: 15px;
+    }
+
+    .toptext2{
+        font-size:25px;
+    }
+}
+
+@media (max-width:600px){
+
+    .container2{
+        width:400px;
+    }
+    .qoute{
+        font-size:20px
+    }
+}
